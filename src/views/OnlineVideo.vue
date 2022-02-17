@@ -16,7 +16,7 @@
         </div>
       </el-form-item>
       <el-form-item class="labelDesigner">
-        <label-wrap>设计人：李云熠</label-wrap>
+        <a href="https://github.com/LeoAnyu/MyMessage01">设计人：李云熠 (LeoAnyu)</a>
       </el-form-item>
     </el-form>
   </div>
