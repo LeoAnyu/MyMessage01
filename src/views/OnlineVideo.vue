@@ -3,7 +3,7 @@
     <el-form :rules="OnlineVideorules" ref="OnlineVideo" :model="OnlineVideo" class="OnlineVideoContainer">
       <br />
       <el-form-item>
-        <h1 class="loginTitle1">VIP视频免费看</h1>
+        <h1 class="loginTitle1">VIP视频免费看 + MyMessage</h1>
       </el-form-item>
       <el-form-item prop="wbst">
         <el-input type="text" auto-complete="false" v-model="OnlineVideo.wbst" placeholder="请输入需要解析的视频网址"></el-input>
@@ -12,7 +12,7 @@
         <div align="center">
           <el-button type="primary" style="width: 100px" @click="openOnlineVideo">跳转</el-button>
           <el-button type="primary" style="width: 100px" @click="openChat">聊天</el-button>
-          <el-button type="primary" style="width: 100px" @click="backLogin1">返回</el-button>
+<!--          <el-button type="primary" style="width: 100px" @click="backLogin1">返回</el-button>-->
         </div>
       </el-form-item>
       <el-form-item class="labelDesigner">

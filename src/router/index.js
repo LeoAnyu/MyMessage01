@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/Login',
     name: 'Login',
     component: Login
   },
@@ -30,7 +30,7 @@ const routes = [
     component: UpLoad
   },
   {
-    path: '/OnlineVideo',
+    path: '/',
     name: 'OnlineVideo',
     component: OnlineVideo
   }
